@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>정우현 천재</title>
+</head>
+
+<body>
+    <h1 id="babo">정우현 천재</h1>
+
+    <style>
+        @keyframes rotate {
+            from {
+                -webkit-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            to {
+                -webkit-transform: rotate(360deg);
+                -o-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        #babo {
+            font-size: 10vw;
+            display: inline-block;
+
+            background-image: linear-gradient(90deg, red, orange, yellow, green, blue, navy, purple);
+            -webkit-background-clip: text;
+            color: transparent;
+
+            animation: rotate 3s linear 1s infinite;
+        }
+    </style>
+
+    <script>
+        const params = new Proxy(new URLSearchParams(window.location.search), {
+            get: (searchParams, prop) => searchParams.get(prop),
+        });
+        const babo = document.getElementById("babo")
+        babo.innerHTML = params.say ?? "정우현 천재"
+        setInterval(
+            () => {
+                document.body.style.background = `#${((1 << 24) * Math.random() | 0).toString(16)}`;
+                babo.style.marginLeft = `${(window.innerWidth - babo.clientWidth) * Math.random()}px`;
+                babo.style.marginTop = `${(window.innerHeight - babo.clientHeight) * Math.random()}px`;
+            },
+            1000
+        )
+    </script>
+</body>
+
+</html>
