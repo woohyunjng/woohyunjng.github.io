@@ -1,0 +1,114 @@
+.intro {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+}
+
+.mainText {
+    width: max-content;
+
+    border: 0px;
+
+    font-size: 50px;
+    letter-spacing: -0.1ch;
+    font-family: "Raleway", sans-serif;
+
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 20px;
+
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.mainText.noHighlight {
+    background-color: white;
+    color: var(--primary);
+}
+
+.mainText.highlight {
+    background-color: var(--primary);
+    color: white;
+
+    padding-bottom: 20px;
+}
+
+.descriptionText {
+    color: var(--primary);
+
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+}
+
+@media (min-width: 320px) {
+    .intro {
+        padding-left: 30px;
+    }
+
+    .mainText {
+        font-size: 30px;
+    }
+
+    .descriptionText {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 480px) {
+    .intro {
+        padding-left: 40px;
+    }
+
+    .mainText {
+        font-size: 40px;
+    }
+
+    .descriptionText {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .intro {
+        padding-left: 50px;
+    }
+
+    .mainText {
+        font-size: 50px;
+    }
+
+    .descriptionText {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .mainText {
+        font-size: 60px;
+    }
+
+    .descriptionText {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .mainText {
+        font-size: 80px;
+    }
+
+    .descriptionText {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .mainText {
+        font-size: 100px;
+    }
+
+    .descriptionText {
+        font-size: 50px;
+    }
+}

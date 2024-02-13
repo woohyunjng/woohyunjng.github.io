@@ -1,7 +1,9 @@
+import Intro from "./layouts/intro.tsx";
+
 function App() {
     return (
         <>
-            <h1>Hello, World!</h1>
+            <Intro />
         </>
     );
 }
