@@ -2,5 +2,78 @@
     "intro": {
         "mainText": ["Hello, I am", "Woohyun Jung"],
         "descriptionText": "안녕하세요 경기과학고 42기 정우현입니다."
+    },
+
+    "achievements": {
+        "title": "자랑은 아니고..",
+        "subtitle": "그냥 상 받은것들 조금만 나열해봤어요...",
+        "list": [
+            {
+                "name": "2021 한국정보올림피아드 1차",
+                "value": "동상",
+                "color": "third",
+                "type": "informatics"
+            },
+            {
+                "name": "2021 한국정보올림피아드 2차",
+                "value": "동상",
+                "color": "third",
+                "type": "informatics"
+            },
+            {
+                "name": "제3회 한국코드페어 해커톤",
+                "value": "동상",
+                "color": "third",
+                "type": "informatics"
+            },
+            {
+                "name": "2022 한국정보올림피아드 1차",
+                "value": "은상",
+                "color": "second",
+                "type": "informatics"
+            },
+            {
+                "name": "2022 한국정보올림피아드 2차",
+                "value": "은상 (20위)",
+                "color": "second",
+                "type": "informatics"
+            },
+            {
+                "name": "2022 한국수학올림피아드 1차",
+                "value": "동상",
+                "color": "third",
+                "type": "math"
+            },
+            {
+                "name": "2022 한국수학올림피아드 2차",
+                "value": "은상",
+                "color": "second",
+                "type": "math"
+            },
+            {
+                "name": "2023 한국정보올림피아드 1차",
+                "value": "금상 (18위)",
+                "color": "first",
+                "type": "informatics"
+            },
+            {
+                "name": "2023 한국정보올림피아드 2차",
+                "value": "동상 (42위)",
+                "color": "third",
+                "type": "informatics"
+            },
+            {
+                "name": "제 45회 성대경시대회",
+                "value": "은상",
+                "color": "second",
+                "type": "math"
+            },
+            {
+                "name": "2023 한국수학올림피아드 1차",
+                "value": "금상",
+                "color": "first",
+                "type": "math"
+            }
+        ]
     }
 }

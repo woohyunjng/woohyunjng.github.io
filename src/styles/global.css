@@ -30,3 +30,78 @@ body {
 
     margin: 0;
 }
+
+@media (min-width: 320px) {
+    body {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .titleFont {
+        font-size: 30px;
+    }
+
+    .smallFont {
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 480px) {
+    body {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .titleFont {
+        font-size: 40px;
+    }
+
+    .smallFont {
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .titleFont {
+        font-size: 50px;
+    }
+
+    .smallFont {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .titleFont {
+        font-size: 60px;
+    }
+
+    .smallFont {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .titleFont {
+        font-size: 80px;
+    }
+
+    .smallFont {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .titleFont {
+        font-size: 100px;
+    }
+
+    .smallFont {
+        font-size: 28px;
+    }
+}
