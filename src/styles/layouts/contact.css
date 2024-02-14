@@ -1,0 +1,86 @@
+.title {
+    width: max-content;
+    border: 0px;
+
+    background-color: var(--primary);
+    color: white;
+
+    letter-spacing: -0.1ch;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+
+    padding-bottom: 20px;
+
+    margin-bottom: 40px;
+}
+
+.contactBtn {
+    width: max-content;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.contactBtn img {
+    border-radius: 100%;
+    transition: 0.5s;
+    background-size: 200% auto !important;
+    box-shadow: 0 0 20px #eee;
+}
+
+.contactBtn img:hover {
+    background-position: right center !important;
+}
+
+@media (min-width: 320px) {
+    .contactBtn img {
+        width: 120px;
+    }
+}
+
+@media (min-width: 480px) {
+    .contactBtn img {
+        width: 180px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contactBtn img {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1279px) {
+    .contacts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactBtn {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1280px) {
+    .contacts {
+        text-align: center;
+    }
+}
+
+@media (min-width: 1920px) {
+    .contactBtn img {
+        width: 300px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .contactBtn img {
+        width: 400px;
+    }
+}

@@ -13,7 +13,7 @@
     padding-left: 5px;
     padding-right: 20px;
 
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .projectName {
@@ -66,9 +66,25 @@
     margin-right: 5px;
 }
 
+@media (min-width: 320px) {
+    .smallFont {
+        font-size: 13px;
+    }
+}
+
 @media (min-width: 480px) {
     .redirect.first {
         margin-left: 50px;
+    }
+
+    .tab .ant-tabs-tab-btn {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .tab .ant-tabs-tab-btn {
+        font-size: 18px;
     }
 }
 
@@ -79,5 +95,21 @@
 
     .projectDescription {
         margin-left: 50px;
+    }
+
+    .tab .ant-tabs-tab-btn {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .tab .ant-tabs-tab-btn {
+        font-size: 29px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .tab .ant-tabs-tab-btn {
+        font-size: 37px;
     }
 }

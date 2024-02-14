@@ -1,6 +1,7 @@
 import Intro from "./layouts/intro.tsx";
 import Achievements from "./layouts/achievements.tsx";
 import Skills from "./layouts/skills.tsx";
+import Contact from "./layouts/contact.tsx";
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
             <Intro />
             <Achievements />
             <Skills />
+            <Contact />
         </>
     );
 }

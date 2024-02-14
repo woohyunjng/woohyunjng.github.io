@@ -169,5 +169,30 @@
                 ]
             }
         ]
+    },
+    "contact": {
+        "title": "여기서 만나요",
+        "sns": [
+            {
+                "type": "mail",
+                "color": "linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%)",
+                "value": "mailto:woohyun.jng08@gmail.com"
+            },
+            {
+                "type": "instagram",
+                "color": "linear-gradient(to right, #dd2a7b 0%, #d1719c 51%, #dd2a7b 100%)",
+                "value": "https://www.instagram.com/woohyunjng/"
+            },
+            {
+                "type": "github",
+                "color": "linear-gradient(to right, #575252 0%, #333333 51%, #575252 100%)",
+                "value": "https://github.com/woohyunjng"
+            },
+            {
+                "type": "boj",
+                "color": "linear-gradient(to right, #0377c6 0%, #80afcf 51%, #0377c6 100%)",
+                "value": "https://www.acmicpc.net/user/woohyun_jng"
+            }
+        ]
     }
 }
