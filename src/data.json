@@ -74,6 +74,12 @@
                 "color": "first",
                 "type": "math"
             }
-        ]
+        ],
+        "youtubeTitle": "인생업적",
+        "youtubeSubtitle": "미미미누한테 안김",
+        "youtubeOpts": {
+            "id": "aJ1ULmFjbns",
+            "start": 896
+        }
     }
 }
