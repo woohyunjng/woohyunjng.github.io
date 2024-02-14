@@ -1,0 +1,83 @@
+.title {
+    width: max-content;
+    border: 0px;
+
+    background-color: var(--primary);
+    color: white;
+
+    letter-spacing: -0.1ch;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 700;
+
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 20px;
+
+    margin-bottom: 30px;
+}
+
+.projectName {
+    width: max-content;
+    border: 0px;
+
+    color: var(--primary);
+
+    letter-spacing: -0.1ch;
+    font-family: "Raleway", "Noto Sans KR";
+    font-weight: 300;
+
+    margin-bottom: 4px;
+}
+
+.projectName:after {
+    display: block;
+    content: "";
+
+    border-bottom: solid 0.5px var(--primary);
+
+    transform: scaleX(0);
+    transform-origin: 0% 50%;
+    transition: transform 250ms ease-in-out;
+}
+
+.projectName:hover:after {
+    transform: scaleX(1);
+}
+
+.projectDescription {
+    border: 0px;
+
+    color: var(--primary);
+
+    letter-spacing: -0.1ch;
+    font-family: "Raleway", "Noto Sans KR";
+    font-weight: 300;
+
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.redirect {
+    width: min-content;
+    height: min-content;
+
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+@media (min-width: 480px) {
+    .redirect.first {
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .project {
+        margin-left: 20px;
+    }
+
+    .projectDescription {
+        margin-left: 50px;
+    }
+}

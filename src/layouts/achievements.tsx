@@ -40,7 +40,9 @@ const Achievements = () => (
             </div>
         </div>
 
-        <h1 className="title titleFont">{data.achievements.youtubeTitle}</h1>
+        <h1 className="title titleFont toLeft">
+            {data.achievements.youtubeTitle}
+        </h1>
         <div className="youtubeContainer">
             <YouTube
                 videoId={data.achievements.youtubeOpts.id}

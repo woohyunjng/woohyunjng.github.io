@@ -81,5 +81,93 @@
             "id": "aJ1ULmFjbns",
             "start": 896
         }
+    },
+    "skills": {
+        "title": "코딩을 합니다",
+        "list": [
+            {
+                "name": "Python",
+                "projects": [
+                    {
+                        "name": "사칙연산 스도쿠",
+                        "redirect": [
+                            {
+                                "name": "github",
+                                "url": "https://github.com/woohyunjng/sudoku"
+                            }
+                        ],
+                        "description": "사칙연산 스도쿠의 솔루션을 알려주는 파이썬 프로그램입니다."
+                    },
+                    {
+                        "name": "ReplaceFaceWeb",
+                        "redirect": [
+                            {
+                                "name": "github",
+                                "url": "https://github.com/kiki7000/ReplaceFaceWeb"
+                            }
+                        ],
+                        "description": "초6때 만든 사진 속 사람들 얼굴을 바꿔주는 API입니다."
+                    },
+                    {
+                        "name": "Discord.py Components",
+                        "redirect": [
+                            {
+                                "name": "github",
+                                "url": "https://github.com/kiki7000/discord.py-components"
+                            }
+                        ],
+                        "description": "discord.py v2.0이 출시되기 전 디스코드의 인터랙션을 쉽게 처리하게 해주는 라이브러리입니다. (Archived)"
+                    }
+                ]
+            },
+            {
+                "name": "React.js",
+                "projects": [
+                    {
+                        "name": "모던 체스",
+                        "redirect": [
+                            {
+                                "name": "github",
+                                "url": "https://github.com/3rd-HGMC/modernChess"
+                            },
+                            {
+                                "name": "web",
+                                "url": "https://3rd-hgmc.github.io/modernChess/"
+                            }
+                        ],
+                        "description": "HGMC 대회를 위해 만든 체스 변형 게임입니다. (With @mini2317)"
+                    },
+                    {
+                        "name": "PV=nRT",
+                        "redirect": [
+                            {
+                                "name": "github",
+                                "url": "https://github.com/woohyunjng/PV-nRT"
+                            },
+                            {
+                                "name": "web",
+                                "url": "https://pv-nrt.netlify.app/"
+                            }
+                        ],
+                        "description": "이상 기체 방정식을 시각화시키기 위해서 만든 웹사이트입니다."
+                    }
+                ]
+            },
+            {
+                "name": "C++",
+                "projects": [
+                    {
+                        "name": "백준",
+                        "redirect": [
+                            {
+                                "name": "github",
+                                "url": "https://github.com/woohyunjng/Coding-Practice/tree/main/C"
+                            }
+                        ],
+                        "description": "C++로 푼 백준 문제들 코드입니다."
+                    }
+                ]
+            }
+        ]
     }
 }

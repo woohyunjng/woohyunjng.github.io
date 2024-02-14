@@ -5,7 +5,8 @@ html {
     scrollbar-width: thin;
     overflow-x: hidden;
 
-    --primary: rgb(11, 27, 56);
+    --primary: #0b1b38;
+    --light: #16294a;
 }
 
 ::-webkit-scrollbar {
@@ -27,6 +28,8 @@ body {
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
+
+    padding-bottom: 100px;
 
     margin: 0;
 }
