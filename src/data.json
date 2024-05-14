@@ -73,7 +73,13 @@
                 "value": "금상",
                 "color": "first",
                 "type": "math"
-            }
+            },
+            {
+                "name": "2024 한국정보올림피아드 1차",
+                "value": "은상 (34위)",
+                "color": "second",
+                "type": "informatics"
+            },
         ],
         "youtubeTitle": "인생업적",
         "youtubeSubtitle": "미미미누한테 안김",
