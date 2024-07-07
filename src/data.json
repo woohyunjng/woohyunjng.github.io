@@ -79,6 +79,12 @@
                 "value": "은상 (34위)",
                 "color": "second",
                 "type": "informatics"
+            },
+            {
+                "name": "2024 한국수학올림피아드 1차",
+                "value": "금상",
+                "color": "first",
+                "type": "math"
             }
         ],
         "youtubeTitle": "인생업적",
